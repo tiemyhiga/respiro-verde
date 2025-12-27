@@ -20,9 +20,9 @@
 
     --link-color:var(--third-color);
     
-    --background-1-color:var(--sixth-color);
-    --background-2-color:var(--fifth-color);
-    --background-3-color:var(--seventh-color);
+    --background-1-color: #FFFFFF;
+    --background-2-color: #FFF3DC;
+    --background-3-color: #EFF9E2;
     --background-4-color: #5F6D3B;
 }
 
@@ -36,6 +36,10 @@
 
 .color-brown {
     color: var(--third-color);
+}
+
+.color-gray {
+    color: var(--fourth-color);
 }
 
 .background-green {
@@ -241,7 +245,7 @@ caption {
     color: var(--p1-color);
 }
 
-.section-1 {
+.sidebar {
     display: flex;
     height: 750px;
     padding: 20px 0;
@@ -274,9 +278,81 @@ caption {
 
 
 
-.image-hero {
-    width: 100px;
+
+
+
+
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    padding: 20px 20px;
+    height: 750px;
+    background-image: url("images/pexels-huy-phan-316220-3891103.jpg");
 }
+
+
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.container-hero:hover {
+    transform: scale(1.03);
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+.image-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    width: 315px;
+    height: auto;
+    background: var(--background-1-color);
+}
+
+.image-hero-inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 24px;
+    width: 100%;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    padding: 0;
+    width: 315px;
+    height: 182px;
+    gap: 12px;
+    background: var(--background-1-color);
+}
+
+
 
 
 
