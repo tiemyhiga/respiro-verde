@@ -295,7 +295,10 @@ caption {
     align-self: center;
     padding: 20px 20px;
     height: 750px;
+    width: auto;
     background-image: url("images/pexels-huy-phan-316220-3891103.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -420,6 +423,7 @@ caption {
     text-align: center;
     padding: 80px 20px;
     background: var(--background-2-color);
+    margin-top: -5px;
 }
 
 .space-item-footer {
