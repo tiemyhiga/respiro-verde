@@ -23,7 +23,7 @@
     --background-1-color:var(--sixth-color);
     --background-2-color:var(--fifth-color);
     --background-3-color:var(--seventh-color);
-    --background-4-color:var(--primary-color);
+    --background-4-color: #5F6D3B;
 }
 
 .color-green {
@@ -36,6 +36,15 @@
 
 .color-brown {
     color: var(--third-color);
+}
+
+.background-green {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--background-4-color);
 }
 
 
@@ -117,21 +126,41 @@ p {
 }
 
 .p1-bold {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
     font-weight: 700;
     font-size: 18px;
 }
 
 .p1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
     font-weight: 400;
     font-size: 18px;
 }
 
 .p2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
     font-weight: 500;
     font-size: 18px;
 }
 
 .p3 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
     font-weight: 500;
     font-size: 16px;
 }
@@ -257,13 +286,31 @@ caption {
 
 
 
-.journey-box {
+.journey-box-1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     align-self: stretch;
-    border-top: 1px dashed var(#E9F9B2);
-    border-bottom: 1px dashed var(#E9F9B2);
+    border-top-width: 1px;
+    border-top-style: dashed;
+    border-top-color: #E9F9B2;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #E9F9B2;
+    gap:16px;
+    padding: 24px 0;
+}
+
+.journey-box-2-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #E9F9B2;
+    gap:16px;
+    padding: 24px 0;
 }
 
 .content-journey {
@@ -274,6 +321,7 @@ caption {
 .detail-journey {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 
@@ -286,6 +334,7 @@ caption {
 
 .border {
     display: flex;
+    background-color: var(--background-4-color);
 }
 
 .footer {
