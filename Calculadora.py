@@ -1,4 +1,10 @@
 import streamlit as st
+import streamlit.components.v1 as components
+
+with  open ("./styles-calculadora.css") as f: 
+    st.markdown( f"<style> {f.read()} </style>" , unsafe_allow_html= True ) 
+
+st.button("Clique aqui" , key="green_button")
 
 st.title("Descubra quais as melhores plantas para seu jardim!")
 
@@ -61,3 +67,5 @@ with st.form(key='form_plantas'):
                 st.markdown (" • Rúcula")
             else:
                 st.write("Desculpe, mas não conseguimos encontrar plantas adequadas para seu jardim com base nas informações fornecidas. Por favor, tente novamente com outras informações, obrigada!.")
+
+

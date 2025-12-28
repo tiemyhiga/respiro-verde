@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Xanh+Mono:ital@0;1&display=swap');
+
+.st-key-green_button > div > button {
+    background-color: #28a745;
+}
+.st-key-green_button > div > button:hover {
+    background-color: #28a745;
+}
+
+h1 {
+    font-family: 'Plus Jakarta Sans' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -5%;
+    font-size: 32px;
+}
+
+write {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -4%;
+    font-size: 22px;
+}
+
+.stNumberInput > div > div > div > input {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+:root {
+    --primary-color: #425C00;
+    --second-color: #E9F9B2;
+    --third-color: #332115;
+    --fourth-color: #756F6C;
+    --fifth-color: #FFF3DC;
+    --sixth-color: #FFFFFF;
+    --seventh-color: #EFF9E2;
+
+    --h1-color:var(--third-color);
+    --h2-color:var(--primary-color);
+    --h3-color:var(--second-color);
+
+    --p1-color:var(--third-color);
+    --p2-color:var(--primary-color);
+    --p3-color:var(--second-color);
+    --p4-color:var(--fourth-color);
+
+    --link-color:var(--third-color);
+    
+    --background-1-color: #FFFFFF;
+    --background-2-color: #FFF3DC;
+    --background-3-color: #EFF9E2;
+    --background-4-color: #5F6D3B;
+}
+
+
+.stkey_styled_input { 
+    border : 2px solid #28a745 ; 
+    padding : 5px ; 
+    border-radius : 5px ; 
+} 
+
+.stkey_styled_input :focus { 
+    border : none; 
+}
+
+
+
+.color-green {
+    color: var(--primary-color);
+}
+
+.color-light-green {
+    color: var(--second-color);
+}
+
+.color-brown {
+    color: var(--third-color);
+}
+
+.color-gray {
+    color: var(--fourth-color);
+}
+
+.background-green {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--background-4-color);
+}
+
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-display {
+    font-family: 'Xanh Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -3%;
+    font-size: 72px;
+}
+
+h1 {
+    font-family: 'Gasoek One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    line-height: 90%;
+    letter-spacing: -1%;
+    font-size: 56px;
+}
+
+
+h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -5%;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -4%;
+    font-size: 22px;
+}
+
+h4 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -4%;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
+}
+
+.p1-bold {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.p1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.p2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.p3 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-display: swap;
+    line-height: 150%;
+    letter-spacing: -2%;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-selected {
+    color: var(--third-color);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -2%;
+    font-size: 14px;
+}
+
+.nav-not-selected {
+    color: var(--fourth-color);
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -2%;
+    font-size: 14px;
+}
+
+caption {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -2%;
+    font-size: 14px;
+}
+
+.nav-link {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -2%;
+    font-size: 14px;
+}
+
+.text-link {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    line-height: 120%;
+    letter-spacing: -2%;
+    font-size: 16px;
+    color: #332115;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+}
+.nav-bar {
+    font-family: 'Plus Jakarta Sans';
+    background-color: var(--background-3-color);
+}
+
+
+.ul-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    justify-self: center;
+    background-color: var(--background-1-color);
+    padding: 16px 24px;
+    border-radius: 9999px;
+    width: 314px;
+    color: var(--p1-color);
+}
+
+.sidebar {
+    display: flex;
+    height: 750px;
+    padding: 20px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: var(--background-3-color);
+}
+
+.main-content {
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.marquee-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    padding: 20px 20px;
+    height: 750px;
+    width: auto;
+    background-image: url("images/pexels-huy-phan-316220-3891103.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.container-hero:hover {
+    transform: scale(1.03);
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+.image-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    width: 315px;
+    height: auto;
+    background: var(--background-1-color);
+}
+
+.image-hero-inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 24px;
+    width: 100%;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    padding: 0;
+    width: 315px;
+    height: 182px;
+    gap: 12px;
+    background: var(--background-1-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+.journey-box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-top-width: 1px;
+    border-top-style: dashed;
+    border-top-color: #E9F9B2;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #E9F9B2;
+    gap:16px;
+    padding: 24px 0;
+}
+
+.journey-box-2-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #E9F9B2;
+    gap:16px;
+    padding: 24px 0;
+}
+
+.content-journey {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail-journey {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+
+
+
+
+
+
+.border {
+    display: flex;
+    background-color: var(--background-4-color);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    background: var(--background-2-color);
+    margin-top: -5px;
+}
+
+.space-item-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:40px;
+}
+
+.header-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.footer-link {
+    font-family: 'Plus Jakarta Sans';
+    text-decoration: underline;
+    color: var(--third-color);
+    display: flex;
+    flex-direction: row;
+    max-width: 950px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width: 800px) {
+    .text-display {
+        font-size: 104px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+
+    .p1-bold {
+        font-size: 20px;
+    }
+
+    .p1 {
+        font-size: 20px;
+    }
+
+    .p2 {
+        font-size: 20px;
+    }
+
+
+}
+
+@media (min-width: 1280px) {
+
+}
