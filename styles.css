@@ -641,6 +641,12 @@ caption {
         margin-left: 480px; 
         width: calc(100% - 480px)
     }
+
+    .background-green-about-us {
+        margin-left: 480px; 
+        width: calc(100% - 480px)
+    }
+
 }
 
 
