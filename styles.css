@@ -355,7 +355,9 @@ caption {
     background: var(--background-1-color);
 }
 
-
+.image-desktop {
+    display: none;
+}
 
 
 
@@ -378,6 +380,7 @@ caption {
     border-bottom-color: #E9F9B2;
     gap:16px;
     padding: 24px 0;
+    place-self: center;
 }
 
 .journey-box-2-3 {
@@ -401,6 +404,11 @@ caption {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: center;
+    align-content: center;
 }
 
 
@@ -457,6 +465,65 @@ caption {
 }
 
 
+
+
+
+.background-green-about-us {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+    align-items: center;
+    gap: 0px;
+    background-color: var(--background-4-color);
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.about-us {
+    display: flex;
+    max-width: 950px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    place-self: center;
+    width: -webkit-fill-available;
+}
+
+.CTA {
+    display: flex;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 9999px;
+    background-color: var(--background-1-color);
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.cta-input {
+    border: none;
+}
+
+.gap {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 800px) {
     .text-display {
         font-size: 104px;
@@ -486,9 +553,96 @@ caption {
         font-size: 20px;
     }
 
+    .image-hero {
+        width: 370px;
+        height: auto;
+        background: var(--background-1-color);
+    }
+
+    .position {
+        object-position: right;
+    }
+
+    .article-content {
+        width: 370px;
+        height: 182px;
+    }
+
+    .image-desktop {
+        display: block;
+        width: 200px;
+        height: 130px;
+        aspect-ratio: 20/13;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .detail-journey {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: center;
+        align-content: center;
+        flex: 1 0 0;
+    }
+
+    .background-green-about-us {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 20px;
+        align-items: center;
+        gap: 0px;
+        background-color: var(--background-4-color);
+    }
+    
+    .about-us {
+        display: flex;
+        max-width: 950px;
+        align-items: flex-start;
+        gap: 40px;
+        width: -webkit-fill-available;
+    }
+
+    .cta-desktop {
+        display: flex;
+        flex-direction: row;
+    }
 
 }
 
 @media (min-width: 1280px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 480px
+    }
 
+    .hero {
+        margin-left: 480px; 
+        width: calc(100% - 480px)
+    }
+
+    .background-green {
+        margin-left: 480px; 
+        width: calc(100% - 480px)
+    }
+
+    .border {
+        margin-left: 480px; 
+        width: calc(100% - 480px)
+    }
+
+    .footer {
+        margin-left: 480px; 
+        width: calc(100% - 480px)
+    }
 }
+
+
+
+
