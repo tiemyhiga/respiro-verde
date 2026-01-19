@@ -70,5 +70,5 @@ with st.form(key='form_plantas'):
                 st.markdown (" • Alface")
                 st.markdown (" • Rúcula")
             else:
-                st.write("Desculpe, mas não conseguimos encontrar plantas adequadas para seu jardim com base nas informações fornecidas. Por favor, tente novamente com outras informações, obrigada!."
+                st.write("Desculpe, mas não conseguimos encontrar plantas adequadas para seu jardim com base nas informações fornecidas. Por favor, tente novamente com outras informações, obrigada!.")
 
