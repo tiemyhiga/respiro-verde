@@ -4,8 +4,6 @@ import streamlit.components.v1 as components
 with  open ("./styles-calculadora.css") as f: 
     st.markdown( f"<style> {f.read()} </style>" , unsafe_allow_html= True ) 
 
-st.button("Clique aqui" , key="green_button")
-
 st.title("Descubra quais as melhores plantas para seu jardim!")
 
 st.write("Para te ajudar a escolher as plantas mais adequadas para seu jardim, preciso de algumas informações sobre o local onde você planeja plantar. Por favor, responda às seguintes perguntas:")
