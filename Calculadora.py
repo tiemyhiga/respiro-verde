@@ -1,5 +1,4 @@
 import streamlit as st
-from google.cloud import firestore
 
 
 st.title("Descubra quais as melhores plantas para seu jardim!")
