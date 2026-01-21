@@ -5,7 +5,7 @@ st.title("Descubra quais as melhores plantas para seu jardim!")
 
 st.write("Para te ajudar a escolher as plantas mais adequadas para seu jardim, preciso de algumas informações sobre o local onde você planeja plantar. Por favor, responda às seguintes perguntas:")
 
-BD = firestore.Client.from_service_account_json("firebase_Calc.json")
+
 
 with st.form(key='form_plantas'):
     nome = st.text_input("Como gostaria de ser chamado(a)?", placeholder="Digite seu nome aqui")
@@ -19,12 +19,6 @@ with st.form(key='form_plantas'):
         if not nome or not telefone or not email or horas_sol == 0 or tamanho_jardim == 0:
             st.error("Por favor, preencha todos os campos corretamente.")
         else:
-            novousuario = BD.collection("Usuarios").document(nome)
-            novousuario.set({
-                "Nome": nome,
-                "Telefone": telefone,
-                "Email": email
-            })
             st.success (f"Obrigada, {nome}! Suas informações foram recebidas com sucesso. Agora, vamos descobrir quais plantas são as melhores para seu jardim!")
             if horas_sol >= 6 and tamanho_jardim >= 10:
                 st.write ("Para seu jardim com mais de 6 horas de sol por dia, algumas plantas que você pode considerar são plantas frutíferas e alguns vegetais como:")
