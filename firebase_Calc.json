@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "calculadora-92a7b",
+  "private_key_id": "155cb8cd87170ed585ba194881d9afca419c55fd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/c7Y5vEIqxBu2\nZKnaqx6wfaGa7jHwbCaQ/HSY3ZKqdwAXFLrfnnjJpgPQPVt46SNdn74tpH1NTSG5\n2WEEvz9fBjlv9fs3AAUacMzAgG0HgtqiHCKIfyLLRwOnO0sAYq8TrHBYUyT6D8CB\nNwIXuPFh10JMrbEPdTwEuh+j1T2U75UZNfs9AnWNwIgEatKAkt1JXRZmFvHIx7Gt\n9qTicHqgKNuSUeeF1Lb50Xk+A8yQw/0UGcxTJwuINedVd0RkWOHMk3xoctUqOKBa\nJA6EeHpU9ZsMycX5C6Xq1c/ttAOkJSs6V+mLIWpvKU0KKZmvQmArhR+KZEXFaCah\nYbEoH7etAgMBAAECggEAP2Sst6RfEnMaLARb+8SCpnULAFaT4aSmBocZgo6HpHs/\n4+Sg1i/OlhKrG5ZdhgVIiRU+bzWSqfh6zOOuTNiYvrm8ZhbApp8SkYU9PxanQ3/w\nLhJ72s+iMUYj7wlilc+XYj/MeWqaiVSS7RZOUpWSE9Anq2UuBkzO4U/R7zlKKViy\nANoHH4EhOh4IiN8wzYke5yjdorpjwaJkrblLQRQtSjmdkWBCUeUX3cFxPoIViWYg\nf3edtANdsmSgVq0uG+2m7e116EHW5oOCfwMIu5V+DtzTEmbvpKJNhx83qXXHPBxp\n6CdM2nV9bNWrTau0iKWTBU4MTHHNyNJYXQJsf1ZmPwKBgQD2sAOg4NX+mJu/NNs/\nhHMLuX4+QXkpN8fN1NXwftF1jN8pT1Hkhr4fFm97/INyEO0uqXkAP2d6Utc4U2L/\nyIIs/csENS4j8SNEIncrSJ+dvynoUTsUGZyQy+ATWWvS6eRxog4aons9yomYuUQ2\nHgKdeTNb1pMmGLC8c9clewwXIwKBgQDGrebe0mZeChwWmF2314BjpvvEWLwqrnRv\nN1IoY+MtpvOawyQFBhEy8wQY5ZBTeXd/9zGIODA1QogNhxh55PQEe8ZptINQiWv8\nNqqVlzZBrM6bXbfmrNfhALowKGrLYBA0MCj0IAmnVWNwHR572+wtVKsbh+hKTrL0\nDPvtF6JK7wKBgHkf9bghjZFj911MI7ctXpvMKYuB9G7jn6yWK7HZYxl34P9Unh46\ndtGm33iehSAV5Y+60NnpR/LNCDX047A6EIjs2KkpP42QUkObNK5BC3aWLYqPkBWP\necuy/0Qg7QtzoqKU8p3rV94AO82MckysMZaGs0wNsNTM3MK7klEp+MbHAoGAQ1lg\nEdiw6t/ydZZg7pkW5LEOV5jc8HsC7VCLgTWbJTabDbNo2mscGXFXyjjHnARpBe/9\n0nd5oBRVmoBZQ7jhH0P2Fo8ilIKBIJZHbT49HjY+M1ypooClDZj5hKmuyhJea9KH\nj3nsy9SeSLsWQlZi0VsKReLkU4wqDaD5JX4FffECgYAOjc2WkpqkT9B1f/oFAZFa\nJA4yB/Z/QEb7uEP6tKmoBByROZEkbpfO8p9c8DGBwxwvpSCtINBdLMYPABdyj1bO\nhCglHYEnKI7ZlfcDlz5XIlWo1e26qWdkG7mX/+ivU7CJtLajG9yzFdLQ77cXNgfC\nvpNciidbcDKBDyMR/9jLKw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@calculadora-92a7b.iam.gserviceaccount.com",
+  "client_id": "115580570930018495437",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40calculadora-92a7b.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
